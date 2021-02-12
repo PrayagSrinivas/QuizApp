@@ -13,6 +13,7 @@
 		8E2B544D23D8927200221389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2B544B23D8927200221389 /* Main.storyboard */; };
 		8E2B544F23D8927300221389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2B544E23D8927300221389 /* Assets.xcassets */; };
 		8E2B545223D8927300221389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2B545023D8927300221389 /* LaunchScreen.storyboard */; };
+		8E2B545A23D8960B00221389 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2B545923D8960B00221389 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8E2B544E23D8927300221389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E2B545123D8927300221389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E2B545323D8927300221389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2B545923D8960B00221389 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8E2B544523D8927200221389 /* AppDelegate.swift */,
 				8E2B544723D8927200221389 /* SceneDelegate.swift */,
 				8E2B544923D8927200221389 /* ViewController.swift */,
+				8E2B545923D8960B00221389 /* Question.swift */,
 				8E2B544B23D8927200221389 /* Main.storyboard */,
 				8E2B544E23D8927300221389 /* Assets.xcassets */,
 				8E2B545023D8927300221389 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2B544A23D8927200221389 /* ViewController.swift in Sources */,
+				8E2B545A23D8960B00221389 /* Question.swift in Sources */,
 				8E2B544623D8927200221389 /* AppDelegate.swift in Sources */,
 				8E2B544823D8927200221389 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,7 +294,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sidhartha-das.Quizler";
+				PRODUCT_BUNDLE_IDENTIFIER = QUIZ.Quizler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sidhartha-das.Quizler";
+				PRODUCT_BUNDLE_IDENTIFIER = QUIZ.Quizler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
